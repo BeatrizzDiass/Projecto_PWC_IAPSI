@@ -10,7 +10,6 @@ document.addEventListener('DOMContentLoaded', function () {
         console.log(dados);
 
         for (var i = 0; i < 3; i++) {
-
             var aleatorios = Math.floor(Math.random() * dados.length);
 
             var cloneCard = cloneOriginalCard.clone();
@@ -20,11 +19,15 @@ document.addEventListener('DOMContentLoaded', function () {
                 .attr('src', dados[aleatorios].flags.png)
                 .attr('alt', 'Bandeira de ' + dados[aleatorios].name.common);
 
+                $(document).on('click', '.card-paises', function () {
+                    var nomePais = $('.titulo-pais', this).text(); // Obtém o nome do país do cartão
+                    window.location.href = `paises.html?pais=${encodeURIComponent(nomePais)}`; // Redireciona para paises.html com o nome do país
+                });
+                
+
             $('.lista-paises').append(cloneCard);
         }
-
     }).fail(function () {
         console.error('Erro ao carregar os dados da API.');
     });
 });
-
