@@ -80,7 +80,7 @@ ul.navbar-nav.ms-auto.mb-lg-0 {
     color: white;
 }
 
-.p_carosel.slide2{
+.p_carosel.slide2 {
     margin-top: 15px;
     color: white;
     max-width: 450px;
@@ -93,12 +93,14 @@ ul.navbar-nav.ms-auto.mb-lg-0 {
     height: 390px;
 }
 
-i.bi.bi-arrow-right-circle, i.bi.bi-arrow-left-circle {
+i.bi.bi-arrow-right-circle,
+i.bi.bi-arrow-left-circle {
     font-size: 38px;
 }
 
-i.bi.bi-arrow-right-circle:hover, i.bi.bi-arrow-left-circle:hover {
-    color: #1559b7; 
+i.bi.bi-arrow-right-circle:hover,
+i.bi.bi-arrow-left-circle:hover {
+    color: #1559b7;
 }
 
 #explorar {
@@ -140,7 +142,7 @@ i.bi.bi-arrow-right-circle:hover, i.bi.bi-arrow-left-circle:hover {
 
 /*explorar*/
 .explorar-info {
-    height: 600px;
+    height: 700px;
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7wei_Nl-CX2ezYc545kU_PGRpXNxHd2CVBw&s);
     background-size: cover;
     background-position: center;
@@ -160,10 +162,13 @@ i.bi.bi-arrow-right-circle:hover, i.bi.bi-arrow-left-circle:hover {
     color: white;
 }
 
-.titulo-explorar{
+.titulo-explorar {
     color: white;
 }
 
+.btn.btn-outline-light {
+    margin-bottom: 15px;
+}
 
 /*card-sobre*/
 .card-img-sobre {
@@ -205,7 +210,6 @@ a.btn.btn-outline-primary {
 .card-paises:hover {
     border: 2px solid #1559b7;
     display: inline;
-
 }
 
 
@@ -246,4 +250,46 @@ a.btn.btn-outline-primary {
     background-color: #1559b7;
     color: white;
     border-color: #1559b7;
+}
+
+
+/*pagina de detalhes*/
+.card-pais {
+    width: 265px;
+    height: 250px;
+}
+
+.tabela-detalhes {
+    border: 1px solid black;
+    /* Borda na tabela em geral */
+    border-collapse: collapse;
+    /* Garante que as bordas não se sobreponham */
+    height: 200px;
+    width: 900px;
+    text-align: center;
+}
+
+.tabela-detalhes th,
+.tabela-detalhes td {
+    border: 1px solid black;
+    /* Borda em cada célula da tabela */
+    padding: 8px;
+    /* Adiciona um pouco de espaço dentro das células */
+}
+
+.tabela-detalhes tr>th {
+    width: 450px;
+}
+
+input[type="text"] {
+    width: 350px;
+
+}
+
+.form-label {
+    margin-top: 40px;
+}
+
+.footer-detalhes {
+    margin-top: 50px;
 }
