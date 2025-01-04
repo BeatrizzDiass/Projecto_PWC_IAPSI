@@ -266,7 +266,7 @@ a.btn.btn-outline-primary {
     border-collapse: collapse;
     /* Garante que as bordas não se sobreponham */
     height: 200px;
-    width: 900px;
+    width: 800px;
     text-align: center;
 }
 
@@ -293,4 +293,198 @@ input[type="text"] {
 
 .footer-detalhes {
     margin-top: 50px;
+}
+
+/*Pagina contactos*/
+/*textarea*/
+#exampleFormControlTextarea1 {
+    width: 100%;
+    height: 147px
+}
+
+/*butoes do form*/
+.col-md-4.text-left {
+    margin-left: -15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*media query - pagina Index(Home)*/
+
+@media only screen and (max-width: 600px) {
+    .carousel-caption {
+        text-align: center;
+        padding: 1rem;
+    }
+
+    .imagem_carousel {
+        margin: 0 auto 15px;
+        max-width: 70%;
+        height: auto;
+        margin-right: -65px;
+    }
+
+    .titulo_carosel {
+        font-size: 1.8rem;
+    }
+
+    .titulo_carosel.slide2 {
+        font-size: 1.8rem;
+    }
+
+    .carousel-item.active.slide2 .imagem_carousel {
+        margin: 0 auto 15px;
+        max-width: 70%;
+        height: auto;
+        margin-right: -65px;
+    }
+
+    .card.card-paises {
+        margin-bottom: 20px;
+    }
+
+    .btn.btn-outline-light {
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1004px) {
+    .titulo_carosel {
+        font-size: 1.8rem;
+    }
+
+    .imagem_carousel {
+        margin: 0 auto 15px;
+        max-width: 50%;
+        height: auto;
+        margin-right: -50px;
+    }
+
+    .titulo_carosel.slide2 {
+        font-size: 1.8rem;
+    }
+
+    .carousel-item.active.slide2 .imagem_carousel {
+        margin: 0 auto 15px;
+        max-width: 50%;
+        height: auto;
+        margin-right: -50px;
+    }
+
+    .card.card-paises {
+        margin-bottom: 20px;
+    }
+
+    .btn.btn-outline-light {
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 1005px) and (max-width: 1440px) {
+
+    .imagem_carousel {
+        margin-right: -80px;
+    }
+
+    .btn.btn-outline-light {
+        margin-top: 20px;
+    }
+
+}
+
+/*media query - pagina Detalhes dos Paises*/
+@media only screen and (max-width: 600px) {
+
+    .card.card-pais {
+        margin-bottom: 20px;
+    }
+
+    .tabela-detalhes {
+        max-width: 450px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1004px) {
+    .tabela-detalhes {
+        max-width: 450px;
+        margin-left: 35px;
+    }
+
+    .card.card-pais {
+        margin-bottom: 20px;
+    }
+}
+
+
+@media (min-width: 1005px) and (max-width: 1440px) {
+
+    .tabela-detalhes {
+        max-width: 600px;
+    }
+
+}
+
+/*media query - pagina Contactos*/
+@media only screen and (max-width: 600px) {
+    .btn.btn-outline-primary {
+        margin-left: -150px;
+        margin-top: 20px;
+    }
+
+    .btn.btn-outline-danger {
+        margin-top: 20px;
+    }
+
+    .informacoes li {
+        margin-bottom: 10px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1004px) {
+    .col-md-4.text-left {
+        display: flex;
+        /* Habilitar flexbox */
+        gap: 10px;
+        /* Espaçamento entre os botões */
+        justify-content: flex-start;
+        /* Alinhamento inicial */
+        margin-left: 10px;
+        /* Maior ajuste para a direita */
+    }
+}
+
+@media (min-width: 1005px) and (max-width: 1440px) {
+    .col-md-4.text-left {
+        display: flex;
+        /* Habilitar flexbox */
+        gap: 10px;
+        /* Espaçamento entre os botões */
+        justify-content: flex-start;
+        /* Alinhamento inicial */
+        margin-left: 10px;
+        /* Maior ajuste para a direita */
+    }
 }
