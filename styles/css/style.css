@@ -19,11 +19,11 @@ ul.navbar-nav.ms-auto.mb-lg-0 {
 
 /*carousel*/
 .carousel {
-    margin-bottom: 4rem;
+    margin-bottom: 64px;
 }
 
 .carousel-caption {
-    bottom: 3rem;
+    bottom: 48px;
     z-index: 10;
 }
 
@@ -35,7 +35,7 @@ ul.navbar-nav.ms-auto.mb-lg-0 {
 }
 
 .carousel-item {
-    height: 32rem;
+    height: 512px;
 }
 
 /*indicador que esta ativo do carosel*/
@@ -242,7 +242,7 @@ a.btn.btn-outline-primary {
     border: 2px solid #1559b7;
     border-radius: 50%;
     color: #1559b7;
-    font-size: 1.5rem;
+    font-size: 24px;
     transition: all 0.3s ease;
 }
 
@@ -337,7 +337,7 @@ input[type="text"] {
 @media only screen and (max-width: 600px) {
     .carousel-caption {
         text-align: center;
-        padding: 1rem;
+        padding: 16px;
     }
 
     .imagem_carousel {
@@ -348,11 +348,11 @@ input[type="text"] {
     }
 
     .titulo_carosel {
-        font-size: 1.8rem;
+        font-size: 28.8px;
     }
 
     .titulo_carosel.slide2 {
-        font-size: 1.8rem;
+        font-size: 28.8px;
     }
 
     .carousel-item.active.slide2 .imagem_carousel {
@@ -373,7 +373,7 @@ input[type="text"] {
 
 @media (min-width: 601px) and (max-width: 1004px) {
     .titulo_carosel {
-        font-size: 1.8rem;
+        font-size: 28.8px;
     }
 
     .imagem_carousel {
@@ -384,7 +384,7 @@ input[type="text"] {
     }
 
     .titulo_carosel.slide2 {
-        font-size: 1.8rem;
+        font-size: 28.8px;
     }
 
     .carousel-item.active.slide2 .imagem_carousel {
